@@ -1,0 +1,27 @@
+package classobj;
+public class exp1 {
+static int x=22;
+public static void display() {
+       int x=44;
+      System.out.println("this is a static method +x);
+}
+public static void display 2 () {
+      int x 55;
+      System.out.println("this is non static method "+x);
+}
+public static void main(String[] args) {
+
+exp1 obj=new exp1();
+System.out.println(x);
+exp1.display();
+obj.display2();
+      }
+}
+
+
+
+
+Output:
+22
+this is a static method 44
+this is nonstatic method 55
