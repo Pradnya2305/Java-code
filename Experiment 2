@@ -1,0 +1,52 @@
+Package com.beginning;
+import java.until.scanner;
+
+Public class calculator {
+Static int option, result;
+Public static void main (string[ ]args){
+  Scanner sc=new scanner (system.in);
+
+System.out.println("Enter no 1");
+int no 1=sc.nextInt ();
+
+System.out.println("Enter no 2");
+int no 2=sc.nextInt ();
+System.out.println("Enter your option");
+System.out.println("options are 1:+,2:-,3:*,4:/");
+int option=sc.nextInt();
+
+Switch (option){
+Case 1:
+           result=no 1+ no 2;
+           System.out.println(result);
+           break;
+Case 2:
+           result=no 1- no 2;
+           System.out.println(result);
+           break;
+
+Case 3:
+           result=no 1* no 2;
+           System.out.println(result);
+           break;
+
+Case 4:
+           result=no 1/ no 2;
+           System.out.println(result);
+           break;
+               }
+       }
+}
+
+
+
+
+
+Output:
+Enter no 1:
+12
+Enter no 2:
+5
+Enter your option:
+3
+60
